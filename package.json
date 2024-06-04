@@ -1,0 +1,19 @@
+{
+  "name": "prettier-config-cityssm",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Prettier configuration fo the City of Sault Ste. Marie's projects",
+  "main": "prettier.config.js",
+  "exports": "./prettier.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "The Corporation of the City of Sault Ste. Marie",
+  "license": "Unlicense",
+  "devDependencies": {
+    "eslint-config-cityssm": "^3.2.0"
+  },
+  "dependencies": {
+    "prettier": "^3.3.0"
+  }
+}
