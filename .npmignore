@@ -6,5 +6,6 @@ node_modules
 .eslintignore
 .gitignore
 .npmignore
+banner.png
 eslint.config.*
 tsconfig.json
