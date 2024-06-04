@@ -8,6 +8,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "prettier"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cityssm/prettier-config-cityssm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cityssm/prettier-config-cityssm/issues"
+  },
+  "homepage": "https://github.com/cityssm/prettier-config-cityssm#readme",
   "author": "The Corporation of the City of Sault Ste. Marie",
   "license": "Unlicense",
   "devDependencies": {
