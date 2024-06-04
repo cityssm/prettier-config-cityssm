@@ -4,7 +4,6 @@ node_modules
 
 .deepsource.toml
 .eslintignore
-.eslintrc.json
 .gitignore
 .npmignore
 eslint.config.*
