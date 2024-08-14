@@ -1,8 +1,8 @@
-export declare const config: {
-    trailingComma: string;
+declare const _default: {
+    trailingComma: "none";
     tabWidth: number;
-    semi: boolean;
-    singleQuote: boolean;
-    bracketSpacing: boolean;
+    semi: false;
+    singleQuote: true;
+    bracketSpacing: true;
 };
-export default config;
+export default _default;
