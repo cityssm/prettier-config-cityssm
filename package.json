@@ -6,7 +6,7 @@
   "main": "prettier.config.js",
   "exports": "./prettier.config.js",
   "scripts": {
-    "test": "prettier ./test/unpretty.ts --check --config prettier.config.js"
+    "test": "node ./test/runPrettier.js"
   },
   "keywords": [
     "prettier",
@@ -23,7 +23,8 @@
   "author": "The Corporation of the City of Sault Ste. Marie",
   "license": "Unlicense",
   "devDependencies": {
-    "eslint-config-cityssm": "^5.0.2"
+    "@types/node": "^22.3.0",
+    "eslint-config-cityssm": "^6.0.0"
   },
   "dependencies": {
     "prettier": "^3.3.3"
