@@ -1,0 +1,32 @@
+name: Test Prettier Config
+
+on: [workflow_dispatch, push, pull_request]
+
+permissions: read-all
+
+jobs:
+  Testing:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        node: [18, 20, 21]
+
+    name: Node ${{ matrix.node }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+          cache: 'npm'
+      
+      - name: Install Package
+        run: npm ci
+        
+      - name: Install Prettier
+        run: npm install -g prettier
+
+      - name: Run Test
+        run: npm test

@@ -6,7 +6,7 @@
   "main": "prettier.config.js",
   "exports": "./prettier.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "prettier ./test/unpretty.ts --check --config prettier.config.js"
   },
   "keywords": [
     "prettier",
