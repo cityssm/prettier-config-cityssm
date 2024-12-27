@@ -23,10 +23,10 @@
   "author": "The Corporation of the City of Sault Ste. Marie",
   "license": "Unlicense",
   "devDependencies": {
-    "@types/node": "^22.5.1",
-    "eslint-config-cityssm": "^7.0.0"
+    "@types/node": "^22.10.2",
+    "eslint-config-cityssm": "^18.1.2"
   },
   "dependencies": {
-    "prettier": "^3.3.3"
+    "prettier": "^3.4.2"
   }
 }
