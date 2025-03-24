@@ -24,7 +24,7 @@
   "license": "Unlicense",
   "devDependencies": {
     "@types/node": "^22.10.2",
-    "eslint-config-cityssm": "^18.1.2"
+    "eslint-config-cityssm": "^22.0.0"
   },
   "dependencies": {
     "prettier": "^3.4.2"
