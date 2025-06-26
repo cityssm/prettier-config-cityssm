@@ -1,8 +1,8 @@
 declare const _default: {
-    trailingComma: "none";
-    tabWidth: number;
+    bracketSpacing: true;
     semi: false;
     singleQuote: true;
-    bracketSpacing: true;
+    tabWidth: number;
+    trailingComma: "none";
 };
 export default _default;

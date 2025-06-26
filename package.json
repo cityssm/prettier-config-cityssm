@@ -1,32 +1,32 @@
 {
   "name": "prettier-config-cityssm",
   "version": "1.0.0",
-  "type": "module",
   "description": "Prettier configuration fo the City of Sault Ste. Marie's projects",
-  "main": "prettier.config.js",
-  "exports": "./prettier.config.js",
-  "scripts": {
-    "test": "node ./test/runPrettier.js"
-  },
   "keywords": [
     "prettier",
     "prettier-config"
   ],
+  "homepage": "https://github.com/cityssm/prettier-config-cityssm#readme",
+  "bugs": {
+    "url": "https://github.com/cityssm/prettier-config-cityssm/issues"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cityssm/prettier-config-cityssm.git"
   },
-  "bugs": {
-    "url": "https://github.com/cityssm/prettier-config-cityssm/issues"
-  },
-  "homepage": "https://github.com/cityssm/prettier-config-cityssm#readme",
-  "author": "The Corporation of the City of Sault Ste. Marie",
   "license": "Unlicense",
-  "devDependencies": {
-    "@types/node": "^22.10.2",
-    "eslint-config-cityssm": "^18.1.2"
+  "author": "The Corporation of the City of Sault Ste. Marie",
+  "type": "module",
+  "exports": "./prettier.config.js",
+  "main": "prettier.config.js",
+  "scripts": {
+    "test": "node ./test/runPrettier.js"
   },
   "dependencies": {
-    "prettier": "^3.4.2"
+    "prettier": "^3.6.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.4",
+    "eslint-config-cityssm": "^25.0.0"
   }
 }
