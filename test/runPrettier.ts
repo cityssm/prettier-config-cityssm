@@ -1,3 +1,5 @@
+/* eslint-disable no-console -- Test code output. */
+
 import { exec } from 'node:child_process'
 
 const prettierCommand =

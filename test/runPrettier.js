@@ -1,3 +1,4 @@
+/* eslint-disable no-console -- Test code output. */
 import { exec } from 'node:child_process';
 const prettierCommand = 'prettier ./test/unpretty.ts --check --config prettier.config.js';
 console.log(`Running ${prettierCommand} ...`);
