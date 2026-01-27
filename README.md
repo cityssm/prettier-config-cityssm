@@ -1,7 +1,6 @@
 # prettier-config-cityssm
 
 [![DeepSource](https://app.deepsource.com/gh/cityssm/prettier-config-cityssm.svg/?label=active+issues&show_trend=true&token=N2jdPtRn9pdwAE_C0m_ShhJC)](https://app.deepsource.com/gh/cityssm/prettier-config-cityssm/)
-[![Maintainability](https://api.codeclimate.com/v1/badges/604201c4be54b913d959/maintainability)](https://codeclimate.com/github/cityssm/prettier-config-cityssm/maintainability)
 
 ![Prettier Banner](banner.png)
 
