@@ -13,6 +13,10 @@ export const prettierSqlConfig: Config = {
 
   plugins: ['prettier-plugin-embed', 'prettier-plugin-sql'],
 
+  /* Disable HTML embedding for now, breaks formatting with template literals */
+  embeddedHtmlComments: [],
+  embeddedHtmlTags: [],
+
   dataTypeCase: 'upper',
   keywordCase: 'upper'
 }

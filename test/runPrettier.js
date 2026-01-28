@@ -1,6 +1,6 @@
 /* eslint-disable no-console -- Test code output. */
 import { exec } from 'node:child_process';
-const prettierCommand = 'prettier ./test/unpretty.ts --check --config prettier.config.js';
+const prettierCommand = 'prettier ./test/unpretty.sample.ts --check --config prettier.config.js';
 console.log(`Running ${prettierCommand} ...`);
 try {
     // eslint-disable-next-line @typescript-eslint/no-unsafe-call, sonarjs/os-command, sonarjs/no-os-command-from-path

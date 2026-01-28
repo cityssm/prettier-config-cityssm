@@ -3,7 +3,7 @@
 import { exec } from 'node:child_process'
 
 const prettierCommand =
-  'prettier ./test/unpretty.ts --check --config prettier.config.js'
+  'prettier ./test/unpretty.sample.ts --check --config prettier.config.js'
 
 console.log(`Running ${prettierCommand} ...`)
 
