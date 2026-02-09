@@ -29,6 +29,6 @@
   },
   "devDependencies": {
     "@types/node": "^25.0.10",
-    "eslint-config-cityssm": "^37.0.0"
+    "eslint-config-cityssm": "^38.0.0"
   }
 }
