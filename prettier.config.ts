@@ -2,6 +2,7 @@ import type { Config } from 'prettier'
 
 export const prettierConfig: Config = {
   bracketSpacing: true,
+  endOfLine: 'lf',
   semi: false,
   singleQuote: true,
   tabWidth: 2,

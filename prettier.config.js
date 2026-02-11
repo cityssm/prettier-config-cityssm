@@ -1,5 +1,6 @@
 export const prettierConfig = {
     bracketSpacing: true,
+    endOfLine: 'lf',
     semi: false,
     singleQuote: true,
     tabWidth: 2,
