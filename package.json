@@ -16,19 +16,25 @@
   },
   "license": "Unlicense",
   "author": "The Corporation of the City of Sault Ste. Marie",
+  "sideEffects": false,
   "type": "module",
-  "exports": "./prettier.config.js",
+  "exports": {
+    ".": "./prettier.config.js"
+  },
   "main": "prettier.config.js",
+  "files": [
+    "prettier.config.*"
+  ],
   "scripts": {
     "test": "node ./test/runPrettier.js"
   },
   "dependencies": {
     "prettier": "^3.8.1",
     "prettier-plugin-embed": "^0.5.1",
-    "prettier-plugin-sql": "^0.19.2"
+    "prettier-plugin-sql": "^0.20.0"
   },
   "devDependencies": {
-    "@types/node": "^25.2.3",
-    "eslint-config-cityssm": "^38.0.0"
+    "@types/node": "^25.5.0",
+    "eslint-config-cityssm": "^39.0.0"
   }
 }

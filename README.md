@@ -4,7 +4,8 @@
 
 ![Prettier Banner](banner.png)
 
-[Prettier](https://prettier.io/) configuration for the City of Sault Ste. Marie's projects.
+[Prettier](https://prettier.io/) configuration for
+the City of Sault Ste. Marie's projects.
 
 ## How to Use
 
