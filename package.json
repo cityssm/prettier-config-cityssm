@@ -1,6 +1,6 @@
 {
   "name": "prettier-config-cityssm",
-  "version": "2.1.2",
+  "version": "2.1.3",
   "description": "Prettier configuration fo the City of Sault Ste. Marie's projects",
   "keywords": [
     "prettier",
@@ -29,12 +29,12 @@
     "test": "node ./test/runPrettier.js"
   },
   "dependencies": {
-    "prettier": "^3.8.1",
+    "prettier": "^3.9.6",
     "prettier-plugin-embed": "^0.5.1",
     "prettier-plugin-sql": "^0.20.0"
   },
   "devDependencies": {
-    "@types/node": "^25.5.0",
-    "eslint-config-cityssm": "^39.0.0"
+    "@types/node": "^26.1.1",
+    "eslint-config-cityssm": "^42.0.0"
   }
 }

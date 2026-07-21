@@ -8,7 +8,7 @@ const prettierCommand =
 console.log(`Running ${prettierCommand} ...`)
 
 try {
-  // eslint-disable-next-line @typescript-eslint/no-unsafe-call, sonarjs/os-command, sonarjs/no-os-command-from-path
+  // eslint-disable-next-line sonarjs/no-os-command-from-path
   exec(prettierCommand, (error, stdout, stderr) => {
     /*
      * Print output
