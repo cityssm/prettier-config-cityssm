@@ -34,7 +34,7 @@
     "prettier-plugin-sql": "^0.20.0"
   },
   "devDependencies": {
-    "@types/node": "^26.1.1",
-    "eslint-config-cityssm": "^42.0.0"
+    "@types/node": "^26.2.0",
+    "eslint-config-cityssm": "^46.0.0"
   }
 }
