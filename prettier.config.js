@@ -13,6 +13,7 @@ export const prettierSqlConfig = {
     embeddedHtmlComments: [],
     embeddedHtmlTags: [],
     dataTypeCase: 'upper',
+    functionCase: 'upper',
     keywordCase: 'upper'
 };
 export const prettierSqliteConfig = {

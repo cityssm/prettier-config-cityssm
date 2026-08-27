@@ -19,6 +19,7 @@ export const prettierSqlConfig: Config = {
   embeddedHtmlTags: [],
 
   dataTypeCase: 'upper',
+  functionCase: 'upper',
   keywordCase: 'upper'
 }
 
