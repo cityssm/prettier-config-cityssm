@@ -29,12 +29,12 @@
     "test": "node ./test/runPrettier.js"
   },
   "dependencies": {
-    "prettier": "^3.9.6",
-    "prettier-plugin-embed": "^0.5.1",
+    "prettier": "^3.9.10",
+    "prettier-plugin-embed": "^0.8.2",
     "prettier-plugin-sql": "^0.20.0"
   },
   "devDependencies": {
-    "@types/node": "^26.4.0",
-    "eslint-config-cityssm": "^48.1.0"
+    "@types/node": "^26.6.6",
+    "eslint-config-cityssm": "^59.0.1"
   }
 }
