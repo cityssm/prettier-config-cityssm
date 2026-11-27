@@ -1,6 +1,6 @@
 {
   "name": "prettier-config-cityssm",
-  "version": "2.3.0",
+  "version": "3.0.0",
   "description": "Prettier configuration for the City of Sault Ste. Marie's projects",
   "license": "Unlicense",
   "repository": "github:cityssm/prettier-config-cityssm",
