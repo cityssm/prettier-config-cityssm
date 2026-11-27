@@ -1,6 +1,8 @@
+/* eslint-disable runtime-cleanup/no-floating-child-processes */
 /* eslint-disable no-console -- Test code output. */
 
 import { exec } from 'node:child_process'
+import process from 'node:process'
 
 const prettierCommand =
   'prettier ./test/unpretty.sample.ts --check --config prettier.config.js'

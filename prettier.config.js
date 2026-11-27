@@ -1,4 +1,5 @@
 export const prettierConfig = {
+    plugins: ['@prettier/plugin-yuku'],
     bracketSpacing: true,
     endOfLine: 'lf',
     semi: false,
@@ -8,8 +9,14 @@ export const prettierConfig = {
 };
 export const prettierSqlConfig = {
     ...prettierConfig,
-    plugins: ['prettier-plugin-embed', 'prettier-plugin-sql'],
-    /* Disable HTML embedding for now, breaks formatting with template literals */
+    plugins: [
+        '@prettier/plugin-yuku',
+        'prettier-plugin-embed',
+        'prettier-plugin-sql'
+    ],
+    /*
+    Disable HTML embedding for now, breaks formatting with template literals
+    */
     embeddedHtmlComments: [],
     embeddedHtmlTags: [],
     dataTypeCase: 'upper',
